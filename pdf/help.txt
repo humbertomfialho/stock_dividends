@@ -1,0 +1,2 @@
+In this folder you will put the pdf negotiation notes with this nomenclature:
+XPINC_NOTA_NEGOCIACAO_B3_YYYY_MM.pdf

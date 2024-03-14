@@ -1,5 +1,5 @@
 # PDF files
-pdf/*
+pdf/*.pdf
 
 # vscode
 .vscode/
