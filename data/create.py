@@ -90,6 +90,16 @@ def create_new_data_base():
             );
         '''
     )
+
+    cursor.execute(
+        '''
+            CREATE TABLE IF NOT EXISTS Quotes(
+                date date,
+                ticker varchar(255),
+                close float
+            );
+        '''
+    )
     
     connection.commit()
     connection.close()
