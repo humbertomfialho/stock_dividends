@@ -4,15 +4,16 @@ This repository contains code developed to analyze XP's automatic investment por
 ## Data Collection
 
 We collect data from two primary sources to conduct our analysis:
-- **PDF Trading Notes**: Detailed transaction records.
+- **PDF Negotiation Notes**: Detailed transaction records.
 - **Market Data**: Current stock prices and dividends.
 
-We collect data from pdf negotiacion notes and market data to analyse:
+We collect data from pdf negotiation notes and market data to analyse:
 - The duration and initial amount of the investment;
 - The number and cost of transactions;
-- The segments of stocks chosen and the dividends they offer;
-- Monthly positions and market values;
-- The outcome if surplus funds from operations were reinvested;
+- The segments and the sectors of stocks chosen;
+- Variations in prices between buying and selling stock transactions;
+- Monthly positions and financial values;
+- Dividend yield;
 
 ## Prerequisites
 
@@ -20,7 +21,7 @@ Before running this code, you need to obtain API tokens from the following sourc
 - [Dados de Mercado API](https://api.dadosdemercado.com.br/v1/)
 - [BrAPI](https://brapi.dev/api/)
 
-Enter your access tokens in the ./api/constants.py file within the respective string variables.
+Enter your access tokens in the `./api/constants.py` file within the respective string variables.
 
 ## Storing PDF Trading Notes
 
